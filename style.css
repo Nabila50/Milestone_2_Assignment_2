@@ -456,14 +456,12 @@
         margin-left: 5px;
         align-items: center;
         justify-items: center;
-  
     }
    
     /* Standard Responsive */
     .curriculum-title, .story-title{
        align-items: center;
        font-size: 26px;
-       /* margin: 40px 20px 20px; */
        justify-items: center;  
           
     }
@@ -477,8 +475,7 @@
         height: 321px;
         margin-top: 12px;
         margin-bottom: 100px;
-        /* margin-left: 10px;
-        margin-right: 10px; */
+        
     }
     .stan-img{
         width: 88.49px;
@@ -548,7 +545,6 @@
         padding: 10px;
         font-size: 16px;
         line-height: 0px;
-        /* margin-bottom: 60px; */
         margin: 0px 128px 40px;
     }
     /* Footer Section Responsive */
