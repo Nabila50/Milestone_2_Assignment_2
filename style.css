@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.rale-way-font{
+    font-family: "Raleway", serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+.title-font {
+  font-family: "Quicksand", serif;
+  font-size: 56px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-all{
+    font-family: "Quicksand", serif;
+    font-weight: 400px;
+}
+
+/* Shared Style */
+
+.hidden{
+    display: none;
+}
+
+/* Header Style */
+.header{
+    margin: 20px 140px;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 186px;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo img{
+    width: 62px;
+    height: 62px;
+}
+.header-logo-des{
+    font-size: 32px;
+    font-family: "Quicksand", serif;
+
+}
+
+.navbar ul li{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.nav-list{
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-between;
+    display: flex;
+    gap: 32px;
+}
+.logo-btn{
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FEA301;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+
+/* Banner Section */
+.banner-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    margin: 0px 140px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.banner-content{
+    justify-content: space-between;
+    width: 640px;
+}
+.banner-title{
+    line-height: 61px;
+    margin-top: 0px;
+    margin-bottom: 24px ;
+}
+
+.banner-des{
+    color: #111111;
+    font-size: 20px;
+    margin-bottom: 24px;
+   
+}
+
+.banner-btn{
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+}
+.banner-img{
+     
+    align-items: center;
+    justify-items: center;
+}
+
+/* Standard Curriculum Style */
+.standard{
+    background-image: url(assets/bg.png);
+    align-items: center;
+    justify-items: center;
+}
+
+.curriculum-title{
+    justify-items: center;
+    text-align: center;
+    font-size: 46px;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+}
+
+.curriculum-card{
+    width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin: 80px 140px;
+    gap: 29px; 
+}
+.curri-card{
+    width: 368px;
+    height: 477px;
+    border-radius: 19px;
+    justify-items: center;
+    text-align: center;
+}
+
+#card-1{
+    box-shadow: inset 1px 1px 1px #DEF5FF;
+    background-image: linear-gradient(to bottom, #DEF5FF, #ffffff);
+}
+#card-2{
+    box-shadow: inset 1px 1px 1px #FFF4DC;
+    background-image: linear-gradient(to bottom, #FFF4DC, #ffffff);
+}
+#card-3{
+    box-shadow: inset 1px 1px 1px #F2E8FF;
+    background-image: linear-gradient(to bottom, #F2E8FF, #ffffff);
+}
+.curri-card img{
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+
+.curri-card h3{
+    font-family: "Quicksand", serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.curri-card .stan-des{
+    color: #808080;
+    margin: 33px 40px;
+}
+
+.stan-read{
+    font-family: "Quicksand", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.arrow{
+    padding: 60px 0px;
+    margin-top: 50px;
+}
+.arrow_img_2{
+    margin-left: 10px;
+}
+/* Stories Section Style */
+.stories{
+    align-items: center;
+    justify-items: center;
+    background-image: linear-gradient(to top, #FEA301 10%, #FFFFFF 100%);  
+}
+
+.story-title{
+    justify-items: center;
+    text-align: center;
+    font-size: 46px;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    margin: 40px 350px 80px;
+}
+.our{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 0px 140px 90px;
+    gap: 19px;
+}
+.hidden-card{
+    display: none;
+}
+.fun{
+    width: 540px;
+    height: 630px;
+    justify-items: left;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: (1, 1fr);
+}
+
+.fun-img{
+    border-radius: 16px 16px 0px 0px;
+}
+.fun-btn{
+    width: 175px;
+    height: 48px;
+    border-radius: 47.93px;
+    background-color: #3CD8E8;
+    color: #ffffff;
+    transform:translate(38px, -25px);
+    border: none;
+}
+.fun-title{
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    margin:6px 99px 40px  38px;
+}
+
+.fun-des{
+    line-height: 28px;
+    color: #666666;
+    margin: 0px 73px 68px 34px;
+}
+
+.small{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19.17px;
+    
+}
+.small-card{
+    width: 291px;
+    height: 302px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.small-img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.small-btn{
+    width: 175px;
+    height: 38px;
+    border-radius: 47.93px;
+    background-color: #95B226;
+    color: #FFFFFF;
+    transform:translate(38px, -25px);
+    border: none;
+
+}
+.small-des{
+    font-family: "Quicksand", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0px 54px 33px 37px;
+}
+
+.story-btn{
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #111111;
+    color: #FFFFFF;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    margin-bottom: 60px;
+}
+
+/* Footer section style */
+.footer-section{
+    background-color: #01ACFD;
+    align-items: center;
+    justify-items: center;
+    height: 519px;
+
+}
+.all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1070.91px;
+    height: auto;
+    justify-content: space-between;
+}
+.kid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.kid-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 124px;
+}
+.edu{
+    font-family: "Quicksand", serif;
+    font-size: 42.14px;
+    font-weight: 700;
+    margin-left: -60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+.kid-img{
+    width: 60%;
+}
+.kid-des{
+    color: #FFFFFF;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.about{
+    margin-top: 124px;
+    margin-left: 140px;
+    margin-right: 0px;
+}
+.about-h4{
+    color: #FFFFFF;
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 5px;
+
+}
+.school{
+    padding: 0 10px;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.keep{
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 0px;
+}
+
+.keep-touch{
+    font-family: "Quicksand", serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 26px;
+
+}
+ 
+/* Resposnsive style */
+@media screen and (max-width: 576px) {
+
+    
+    .header{
+        margin: 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0px;
+        border-bottom: 0.5px solid #FEA301;
+        padding: 12px 16px;
+    }
+    
+    .header-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-logo img{
+        width: 52px;
+        height: 46px;
+        justify-content: space-evenly;
+    }
+    .header-logo-des{
+        display: none;
+    }
+    .navbar ul li{
+    display: none;
+    }
+ 
+    .logo-btn{
+        display: none;
+    }
+
+    /* Banner Section Responsive */
+    .banner-container{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        margin-left: 27px;                                         
+        margin-right: 27px; 
+        margin-top: 0px;
+        margin-bottom: 0px;                                        
+    }
+
+    .banner-content{
+        order: 1;
+        width: 350px;
+    }
+
+    .banner-title{
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .banner-des{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .banner-btn{
+        width: 131px;
+        height: 42px;
+        padding: 6px 24px;
+        border-radius: 8px;
+        margin: 0px 122px 0px 129px; 
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-img img{
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+   
+    /* Standard Responsive */
+    .curriculum-title, .story-title{
+       align-items: center;
+       font-size: 26px;
+       margin: 40px 20px 20px;
+       justify-items: center;  
+          
+    }
+    .curriculum-card{
+        grid-template-columns: repeat(1, 1fr);   
+    }
+    .curri-card{
+        width: 356px;
+        height: 321px;
+        margin-top: 12px;
+        margin-bottom: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .arrow{
+        display: none;
+    }
+
+    /* Our stories */
+    .our{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;   
+    }
+
+    .fun{
+        display: none;
+    }
+
+    .small{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 11.17px;
+        
+    }
+    .small-card{
+        width: 173px;
+        height: 180px;
+        border: none;
+        background-color: #FFFFFF;
+        border-radius: 9.53px;
+    }
+    .small-img{
+        width: 173px;
+        height: 105px;
+        border-radius: 9.53px 9.53px 0px 0px;
+        
+    }
+    .small-btn{
+        width: 104px;
+        height: 23px;
+        border-radius: 28.85px;
+        background-color: #95B226;
+        color: #FFFFFF;
+        transform:translate(22px, -15px);
+        border: none;
+        font-size: 9.13px;
+    }
+    .small-des{
+        font-family: "Quicksand", serif;
+        font-size: 9.13px;
+        font-weight: 700;
+        line-height: 17px;
+        margin: 0px 32px 19px 22px;
+    }
+    .hidden-card{
+        display: block;
+    }
+    .july-btn{
+        width: 76px;
+        height: 23px;
+    }
+    .story-btn{
+        width: 134px;
+        height: 30px;
+        padding: 10px;
+        font-size: 16px;
+        line-height: 0px;
+        /* margin-bottom: 60px; */
+        margin: 0px 128px 40px;
+    }
+    /* Footer Section Responsive */
+    .footer-section{
+        height: 642px;
+    }
+    .all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 390px;
+        height: auto;
+    }
+    .edu{
+        font-family: "Quicksand", serif;
+        font-size: 35px;
+    }
+    .kid-content{
+         
+        margin-top: 20px;
+    }
+    .kid-des{
+        font-size: 16px;
+        margin: 5px 15px 16px 14px; 
+    }
+
+    .about{
+        margin-top: 10px;
+        margin-left: 14px;
+        margin-right: 0px;
+    }
+    .about-h4{
+        color: #FFFFFF;
+        font-family: "Quicksand", serif;
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0 5px;
+    
+    }
+    .keep{
+        margin-top: 5px;
+        margin-left: 16px;
+        margin-right: 0px;
+    }
+    
+    .keep-touch{
+        font-family: "Quicksand", serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #FFFFFF;
+        line-height: 26px;
+    
+    }
+}
